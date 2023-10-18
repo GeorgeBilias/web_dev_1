@@ -23,7 +23,7 @@ Hardware:
 Video Games:
 
     Playstation Consoles
-    Xbox Consoles 
+    Playstation Consoles
     Nintendo Consoles
     Playstation Games
     Xbox Games
@@ -40,6 +40,6 @@ Gadgets:
     Ακουστικα
     Τηλεορασεις
 
-1. CREATE A LIST OF ALL CATEGORIES WHICH BY CLICKING WILL SHOW THE SUBCATEGORIES.
-2. CREATE AN HTML FILE FOR 2 SUBCATEGORIES
-3. CREATE DETAILED INFO ABOUT ONE PRODUCT
+
+1. CREATE AN HTML FILE FOR 2 SUBCATEGORIES
+2. CREATE DETAILED INFO ABOUT ONE PRODUCT
