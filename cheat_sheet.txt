@@ -1,0 +1,45 @@
+web dev cheat sheet:
+
+Hardware:
+
+    Πληρη Συστηματα
+    Μητρικη
+    Επεξεργαστης
+    Καρτα Γραφικων
+    Οθονη
+    Μνημεσ
+    Τροφοδοτικα
+    Σκληροι Δισκοι
+
+Κινητη Τηλεφωνια:
+
+    Samsung
+    Apple
+    Huawei
+    Google
+    Xiaomi
+    Sony
+
+Video Games:
+
+    Playstation Consoles
+    Xbox Consoles 
+    Nintendo Consoles
+    Playstation Games
+    Xbox Games
+    Nintendo Games
+    PC Games
+    Gift Cards
+
+Gadgets:
+
+    Cameras
+    Ηχεια
+    Ηχοσυστηματα
+    Smartwatches
+    Ακουστικα
+    Τηλεορασεις
+
+1. CREATE A LIST OF ALL CATEGORIES WHICH BY CLICKING WILL SHOW THE SUBCATEGORIES.
+2. CREATE AN HTML FILE FOR 2 SUBCATEGORIES
+3. CREATE DETAILED INFO ABOUT ONE PRODUCT
