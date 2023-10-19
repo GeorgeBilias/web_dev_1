@@ -40,6 +40,4 @@ Gadgets:
     Ακουστικα
     Τηλεορασεις
 
-
-1. CREATE AN HTML FILE FOR 2 SUBCATEGORIES
 2. CREATE DETAILED INFO ABOUT ONE PRODUCT
