@@ -1,43 +1,9 @@
-web dev cheat sheet:
+TODO:
 
-Hardware:
+add description to consoles and iphones
+add the description to about us
+add imgs to about us
+resize images
+change the footer
+fix the prices
 
-    Πληρη Συστηματα
-    Μητρικη
-    Επεξεργαστης
-    Καρτα Γραφικων
-    Οθονη
-    Μνημεσ
-    Τροφοδοτικα
-    Σκληροι Δισκοι
-
-Κινητη Τηλεφωνια:
-
-    Samsung
-    Apple
-    Huawei
-    Google
-    Xiaomi
-    Sony
-
-Video Games:
-
-    Playstation Consoles
-    Playstation Consoles
-    Nintendo Consoles
-    Playstation Games
-    Xbox Games
-    Nintendo Games
-    PC Games
-    Gift Cards
-
-Gadgets:
-
-    Cameras
-    Ηχεια
-    Ηχοσυστηματα
-    Smartwatches
-    Ακουστικα
-    Τηλεορασεις
-
-2. CREATE DETAILED INFO ABOUT ONE PRODUCT
