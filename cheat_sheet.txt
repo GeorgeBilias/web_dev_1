@@ -3,7 +3,5 @@ TODO:
 add description to consoles and iphones
 add the description to about us
 add imgs to about us
-resize images
-change the footer
-fix the prices
+add logo
 
