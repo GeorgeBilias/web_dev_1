@@ -1,6 +1,6 @@
 TODO:
 
-add description to consoles and iphones
+
 add the description to about us
 add imgs to about us
 add logo
