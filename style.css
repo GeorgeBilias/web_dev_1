@@ -1,0 +1,113 @@
+header {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 0;
+    padding-right: 40%;
+}
+
+.title img {
+    margin: 0; 
+    margin-right: 10px;
+}
+
+.main-bar ul {
+    list-style-type: none;
+    padding: 2%;
+}
+
+.main-bar li {
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.main-bar a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+body {
+    background-color: #d1d0d0;
+}
+
+.main-bar{
+    background-color: #000000;
+
+}
+
+.main-bar a:hover {
+    color: rgb(151, 151, 144); 
+}
+
+.legend fieldset {
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    padding: 15px;
+}
+
+.legend legend {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+.legend input[type="text"],
+.legend input[type="email"],
+.legend input[type="tel"],
+.legend input[type="number"],
+.legend textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.legend input[type="submit"] {
+    background-color: #000000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.legend input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
+.legend input[type="submit"]:hover {
+    background-color: #292929; 
+}
+
+
+footer {
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+
+footer p {
+    font-size: 16px; 
+    margin: 5px 0; 
+}
+
+footer img {
+    margin: 0 5px; 
+    vertical-align: middle;
+}
+
+
