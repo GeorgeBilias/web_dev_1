@@ -260,7 +260,7 @@ footer img {
 
 @font-face {
     font-family: 'MyFont';
-    src: url('/fonts/Robot9000-MVxZx.ttf') format('woff2'); 
+    src: url('fonts/Robot9000-MVxZx.ttf') format('woff2'); 
   }
 
 .title h1 {
