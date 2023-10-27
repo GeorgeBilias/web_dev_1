@@ -271,62 +271,72 @@ footer img {
     margin-bottom: 30%;
 }
 
-.apple-listings {
-    margin-bottom: 30%;
-    margin-top: 10%;
-}
 
 .playstation-listings {
-    margin-bottom: 30%;
-    margin-top: 10%;
-}
-
-/* Center the container horizontally and vertically */
-.playstation-listings {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-left: 50%;
-    margin-right:50%;
-    justify-content: center; /* Horizontally center the boxes */
-    align-items: center; /* Vertically center the boxes */
+    
+    justify-content: center;
   }
   
-  /* Rest of the styling for the listing items (same as before) */
-  .playstation-listings li {
-    list-style-type: none;
+  .grid {
+    margin:15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grid li {
     border: 1px solid #ddd;
     padding: 15px;
-    width: calc(160.33% - 20px);
-    box-sizing: border-box;
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-  }
-
-  /* Center the container horizontally and vertically */
-.apple-listings {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-left: 50%;
-    margin-right:50%;
-    justify-content: center; /* Horizontally center the boxes */
-    align-items: center; /* Vertically center the boxes */
+    /* Add your item-specific styling here */
   }
   
-  /* Rest of the styling for the listing items (same as before) */
-  .apple-listings li {
-    list-style-type: none;
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for smaller screens */
+    }
+  }
+
+  .apple-listings {
+    justify-content: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grid li {
     border: 1px solid #ddd;
     padding: 15px;
-    width: calc(160.33% - 20px);
-    box-sizing: border-box;
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    /* Add your item-specific styling here */
   }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for smaller screens */
+    }
+  }
+
+
+
+
+  
+
+
   
   
