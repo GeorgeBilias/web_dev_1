@@ -1,8 +1,12 @@
+/* reset */
+
 
 body, h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
     padding: 0;
 }
+
+
 
 header {
     text-align: center;
@@ -11,74 +15,79 @@ header {
     padding: 1rem 0;
 }
 
-.title {
+.title { /* site name */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
 }
 
-.title h1 {
+.title h1 { /* site name text */
     margin: 0;
 }
 
-.title img {
+.title img { /* logo */
     max-width: 100px;
     height: auto;
     margin-right: 10px;
 }
 
-.main-bar ul {
+.main-bar ul { /* AΡΧΙΚΗ ΣΕΛΙΔΑ , ΚΑΤΗΓΟΡΙΕΣ etc */
     list-style-type: none;
     padding: 0;
 }
 
-.main-bar li {
+.main-bar li { /* AΡΧΙΚΗ ΣΕΛΙΔΑ , ΚΑΤΗΓΟΡΙΕΣ etc */
     display: inline;
     margin-right: 20px;
 }
 
-.main-bar a {
+.main-bar a { /* AΡΧΙΚΗ ΣΕΛΙΔΑ , ΚΑΤΗΓΟΡΙΕΣ etc */
     text-decoration: none;
     color: #ffffff;
     
 }
 
-body {
+body {  /* Entire page */
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
 }
 
-.main-bar{
+.main-bar{ /* nav bar backround */
     background-color: #000000;
 
 }
 
-.main-bar a:hover {
+.main-bar a:hover { /* AΡΧΙΚΗ ΣΕΛΙΔΑ , ΚΑΤΗΓΟΡΙΕΣ etc */
     color: rgb(204, 197, 197); 
     
 
 }
 
-.legend fieldset {
-    border: 2px solid #000000; 
+
+
+
+/* CONTACT US SECTION*/
+
+.legend fieldset {  
+    border: 2px solid #000000; /* border around field */
     border-radius: 5px; 
     padding: 15px;
 }
 
-.legend {
+.legend {  /* field placement to the page */
     margin-bottom: 30%;
     margin-top: 10%;
 }
 
-.legend legend {
+.legend legend { /* customisation of text on top ΕΙΣΑΓΩΓΗ ΣΤΟΙΧΕΙΩΝ ΕΠΙΚΟΙΝΩΝΙΑΣ */
     font-size: 20px; 
     font-weight: bold;
     color: #000000; 
     margin-bottom: 10px;
 }
 
-.legend input[type="text"],
+.legend input[type="text"], /* customisation of the field boxes */
 .legend input[type="email"],
 .legend input[type="tel"],
 .legend input[type="number"],
@@ -92,7 +101,7 @@ body {
     resize:none;
 }
 
-.legend input[type="submit"] {
+.legend input[type="submit"] { /* customisation of button submit */
     background-color: #000000; 
     color: white;
     border: none;
@@ -103,24 +112,30 @@ body {
 }
 
 
-.legend input[type="submit"]:hover {
+.legend input[type="submit"]:hover { /* customisation of button submit */
     background-color: #000000;
 }
 
 
-.legend input[type="submit"]:hover {
+.legend input[type="submit"]:hover { /* customisation of button submit */
     background-color: #292929; 
 }
 
 
-footer {
+
+
+
+/* footer section */
+
+
+footer { /* main footer */
     background-color: #1d1d1d;
     color: #fff;
     padding: 30px 0;
     text-align: center;
 }
 
-.footer-container {
+.footer-container { /* this allows the footer links to be on the right and not in a new line */
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -129,7 +144,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-content {
+.footer-content { /* same as before but for the collumns */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -137,7 +152,7 @@ footer {
     flex: 1;
 }
 
-.footer-column {
+.footer-column { /* collumns set on the left */
     flex: 1;
     padding: 0 20px;
     text-align: left;
@@ -153,7 +168,7 @@ footer p {
     margin: 5px 0;
 }
 
-footer img {
+footer img { 
     margin: 5px;
     vertical-align: middle;
 }
@@ -175,14 +190,20 @@ footer img {
 
 
 
-.categories {
+
+
+
+/* categories section in categories.html */
+
+
+.categories { /* placement to the page */
     margin-bottom: 30%;
 }
 
 
 
 
-.category {
+.category { /* styling of the boxes */
     list-style: none;
     border: 2px solid #000000;
     background-color: #f5f5f5;
@@ -200,14 +221,15 @@ footer img {
     
 }
 
-.category:hover {
+.category:hover { /* category box gets bigger when mouse on top of it */
     transform: scale(1.05);
 }
 
-.category ul {
+.category ul { /* removal of dots because they are set as a list */
     list-style: none;
     padding: 0;
 }
+
 
 .subcategory {
     padding: 5px;
@@ -219,13 +241,13 @@ footer img {
     border-color: #000000; /* Change the border color on hover */
 }
 
-.category a {
+.category a { /* text of subcategories */
     text-decoration: none;
     color: #333;
     
 }
 
-.category img {
+.category img { /* image of each category */
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -239,11 +261,16 @@ footer img {
     
 }
 
+
 .subcategory a:hover {
     color: #000000;
 }
 
-.introduction {
+
+
+/* main page section */
+
+.introduction { /* placement of welcome message */
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -258,6 +285,7 @@ footer img {
 
 }
 
+/* font of title of website */
 @font-face {
     font-family: 'MyFont';
     src: url('fonts/Robot9000-MVxZx.ttf') format('woff2'); 
@@ -272,14 +300,21 @@ footer img {
 }
 
 
-.playstation-listings {
+
+
+
+
+/* playstation categories */
+
+
+.playstation-listings {  /* making the listings as a grid */
     
     justify-content: center;
   }
   
   .grid {
     margin:15%;
-    display: grid;
+    display: grid; /* making the listings as a grid */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width as needed */
     gap: 20px;
     list-style: none;
@@ -293,15 +328,23 @@ footer img {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-    /* Add your item-specific styling here */
+
   }
   
-  /* Add responsive styles for smaller screens */
+  /* responsive styles for smaller screens */
   @media (max-width: 768px) {
     .grid {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for smaller screens */
     }
   }
+
+
+
+
+
+
+
+  /* apple category */    /* very similar to playstation */
 
   .apple-listings {
     justify-content: center;
@@ -331,6 +374,118 @@ footer img {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for smaller screens */
     }
   }
+
+
+
+
+
+/* ps5 */
+
+/* description of product */
+
+
+.item {
+    margin-top:8%;
+    margin-bottom:30%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.item img {
+    margin-bottom:7%;
+    margin-top:7%;
+}
+
+/* table customisation of product specs */
+
+.item table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom:10%;
+    margin-top:10%;
+}
+
+.item th {
+    background-color: #f2f2f2;
+}
+
+.item th, td { /* each box has a border */
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.item tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.item .sub-1 { /* collumn name text */
+    font-weight: bold;
+}
+
+.item .sub-2 { /* colour of text of a specific category */
+    color: #3f86d1; /* Change the color as desired */
+}
+
+
+/* Style the image */
+.item #pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px; 
+}
+
+/* Style the paragraph text */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* buy (contact) from seller section */
+/* using float we make the button appear next to the text */
+
+#border {
+    display: flex;
+    align-items: center;
+    border: 2px dashed #007bff; /* Dashed border style */
+    padding: 10px;
+}
+
+#buy {
+    flex: 1; /* Expand to fill the available space */
+    font-size: 16px;
+}
+
+#buy2 {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+/* Hover effect for the button */
+#buy2:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
