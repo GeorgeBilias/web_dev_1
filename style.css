@@ -76,7 +76,7 @@ body {  /* Entire page */
 }
 
 .legend {  /* field placement to the page */
-    margin-bottom: 30%;
+    margin-bottom: 15%;
     margin-top: 10%;
 }
 
@@ -197,7 +197,7 @@ footer img {
 
 
 .categories { /* placement to the page */
-    margin-bottom: 30%;
+    margin-bottom: 15%;
 }
 
 
@@ -274,7 +274,7 @@ footer img {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
 }
 
 
@@ -327,7 +327,7 @@ footer img {
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 15%;
 
   }
   
@@ -364,7 +364,7 @@ footer img {
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 15%;
     /* Add your item-specific styling here */
   }
   
@@ -476,22 +476,37 @@ p {
     background-color: #0056b3;
 }
 
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
+.about_us {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
+.about_us h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
 
+.about_us h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
 
+.about_us img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
 
+.about_us h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
 
-
-
-
-
-
-
-
-
-  
-
-
-  
-  
