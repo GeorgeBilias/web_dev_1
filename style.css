@@ -341,33 +341,24 @@ footer img {
   /* cars category */
 
   .car-listings {
-    justify-content: center;
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom:15%
   }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width as needed */
-    gap: 20px;
+
+  .car-listings li {
+    border: 2px solid #000; /* You can customize the border properties */
+    padding: 10px; /* Add some padding to separate the content from the border */
+    margin: 10px 0; /* Add margin to space out the listings */
+    margin-top:2%;
     list-style: none;
-    padding: 0;
-  }
-  
-  .grid li {
-    border: 1px solid #ddd;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 15%;
-    /* Add your item-specific styling here */
-  }
-  
-  /* Add responsive styles for smaller screens */
-  @media (max-width: 768px) {
-    .grid {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust for smaller screens */
-    }
-  }
+}
+
+
+
+
+
+
 
 
 
